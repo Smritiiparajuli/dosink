@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="global.css" />
+    <title>DosInk: The future of IT</title>
+  </head>
+  <body>
+    <div class="linear-background">
+      <nav class="navigation-menu">
+        <div class="navigation-wrapper">
+          <a href="/index.html">
+            <div class="nav-logo">
+              <img
+                src="dosink-logo-light.png"
+                class="nav-logo-img"
+                alt="dosink logo"
+              />
+            </div>
+          </a>
+
+          <ul class="menu-list">
+            <li class="dropdown">
+              <a href="" class="link">Services</a>
+
+              <div class="dropdown-menu">
+                <a href="#">Advanced Digital Solutions </a>
+                <a href="#">Creative Campaign Design </a>
+              </div>
+              <!-- <img src="sort-down.png" alt="sort-down" class="sort-down"> -->
+            </li>
+            <li class="menu-item">
+              <a href="" class="link">Process</a>
+            </li>
+
+            <li class="menu-item">
+              <a href="" class="link">Team</a>
+            </li>
+
+            <li class="menu-item">
+              <a href="" class="link">Our Work</a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="/contact.html" class="contact-button">
+          <img src="call-icon.png" alt="contact-icon" class="contact-icon" />
+          <p>Contact Us</p>
+        </a>
+        <a href="/login" class="login-button">
+          <img src="user-logo.png" alt="user-logo" class="user-logo" />
+          <p>Login</p>
+        </a>
+      </nav>
+
+      <div class="contact-main-div">
+        <div class="contact-text-container">
+          <h2>
+            Revolutionizing marketing with innovative digital solutions for
+            campaigns, design, and advertising services.
+          </h2>
+        </div>
+
+        <div class="form-container">
+          <div class="right-section">
+            {% comment %}
+            <form class="sales-form">
+              <div class="form-group">
+                <label for="need"
+                  >Cutting-edge marketing technology solutions:</label
+                >
+                <input
+                  type="text"
+                  id="first-name"
+                  placeholder="Enter your marketing technology needs "
+                />
+              </div>
+              <div class="form-group">
+                <label for="email"> Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your valid email address "
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="description"
+                  >Describe your project requirements:</label
+                >
+                <textarea
+                  id="description"
+                  placeholder="Enter your project details"
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-button">Submit</button>
+            </form>
+            {% endcomment %}
+            <!--  ----------------------------------------------------------------------  -->
+            <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+            <!--  If necessary, please modify the charset parameter to specify the        -->
+            <!--  character set of your HTML page.                                        -->
+            <!--  ----------------------------------------------------------------------  -->
+            <meta
+              http-equiv="Content-type"
+              content="text/html; charset=UTF-8"
+            />
+            <!--  ----------------------------------------------------------------------  -->
+            <!--  NOTE: Please add the following <FORM> element to your page.             -->
+            <!--  ----------------------------------------------------------------------  -->
+            <form
+              action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Dd5000000SzDR"
+              method="POST"
+            >
+              <input type="hidden" name="oid" value="00Dd5000000SzDR" />
+              <input
+                type="hidden"
+                name="retURL"
+                value="https://www.dosink.com"
+              />
+              <!--  ----------------------------------------------------------------------  -->
+              <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+              <!--  these lines if you wish to test in debug mode.                          -->
+              <!--  <input type="hidden" name="debug" value=1>                              -->
+              <!--  <input type="hidden" name="debugEmail" value="shilash@dosink.com">      -->
+              <!--  ----------------------------------------------------------------------  -->
+              <label for="first_name">First Name</label
+              ><input
+                id="first_name"
+                maxlength="40"
+                name="first_name"
+                size="20"
+                type="text"
+              /><br />
+              <label for="last_name">Last Name</label
+              ><input
+                id="last_name"
+                maxlength="80"
+                name="last_name"
+                size="20"
+                type="text"
+              /><br />
+              <label for="email">Email</label
+              ><input
+                id="email"
+                maxlength="80"
+                name="email"
+                size="20"
+                type="text"
+              /><br />
+              <label for="company">Company</label
+              ><input
+                id="company"
+                maxlength="40"
+                name="company"
+                size="20"
+                type="text"
+              /><br />
+              <label for="city">City</label
+              ><input
+                id="city"
+                maxlength="40"
+                name="city"
+                size="20"
+                type="text"
+              /><br />
+              <label for="mobile">Mobile</label
+              ><input
+                id="mobile"
+                maxlength="40"
+                name="mobile"
+                size="20"
+                type="text"
+              /><br />
+              <label for="title">Title</label
+              ><input
+                id="title"
+                maxlength="40"
+                name="title"
+                size="20"
+                type="text"
+              /><br />
+              <input type="submit" name="submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
